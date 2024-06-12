@@ -1,66 +1,15 @@
-## Foundry
+## patsssoCTF
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+### CTF №1
+Gifter:
+    This contract was created by an altruist who could no longer look at this world calmly,
+    so he decided to create an action for people in need of help.
+    For those who deposit a certain amount on the contract,
+    he chooses a couple of addresses to whom he will double his deposit.
+    But we all know what the harsh world does to all of us,
+    so some who were lucky enough to double their deposit decided to rob an altruist for the same amount.
+    Can you do the same?
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+CTF location: 
+    Contract: `src/ctf-1/Gifter.sol`
+    Test: `test/ctf-1/Gifter.t.sol`
