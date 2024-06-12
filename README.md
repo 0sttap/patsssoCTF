@@ -1,6 +1,7 @@
 ## patsssoCTF
 
 ### CTF №1
+```
 Gifter:
     This contract was created by an altruist who could no longer look at this world calmly,
     so he decided to create an action for people in need of help.
@@ -13,3 +14,4 @@ Gifter:
 CTF location: 
     Contract: `src/ctf-1/Gifter.sol`
     Test: `test/ctf-1/Gifter.t.sol`
+```
