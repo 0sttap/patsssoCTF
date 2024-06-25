@@ -15,3 +15,17 @@ CTF location:
     Contract: `src/ctf-1/Gifter.sol`
     Test: `test/ctf-1/Gifter.t.sol`
 ```
+
+### CTF №2
+```
+CheaperWETH:
+    Some people are very keen on saving on transactions wherever possible, 
+    like this enthusiast who decided to create a new WETH contract where all 
+    functionality is implemented with Yul inserts. It's more economical, 
+    no doubt, but has this contract undergone an audit?
+    Your task is to withdraw all funds from the contract, starting with 15 ether.
+
+CTF location: 
+    Contract: `src/ctf-2/CheaperWETH.sol`
+    Test: `test/ctf-2/CheaperWETH.t.sol`
+```
